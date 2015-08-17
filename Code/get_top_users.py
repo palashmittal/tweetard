@@ -27,8 +27,19 @@ def get_top_n_hashtags(data, n):
     count = [l for l in reversed(count)]
     print count[0:n]
 
-def get_top_users(data, hashtag):
-    return ""
+def get_top_users(data, hashtag, n):
+    user_count = {}
+    for tweet in data:
+        if hashtag in set([l["text"] for l in tweet["entities"]["hashtags"]]):
+            user_id = tweet["user"]["id"]
+            if(user_id in user_count):
+                user_count[user_id]+=1
+            else:
+                user_count[user_id]=1
+    user_count = sorted(user_count.items(), key=operator.itemgetter(1))
+    user_count = [l for l in reversed(user_count)]
+    print user_count[0:n]
 
 data = get_data("/Users/arkanath/Temp/Social Computing Project/tweetard/Data/sampletweets.json")
-get_top_n_hashtags(data,5)
+# get_top_n_hashtags(data,5)
+get_top_users(data, "ausopen", 10)
