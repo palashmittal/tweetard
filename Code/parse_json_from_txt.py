@@ -2,7 +2,7 @@ __author__ = '9310gaurav'
 import json
 
 def parse(filename):
-    f = open('./sports/ausopen.txt', 'r')
+    f = open(filename, 'r')
     all = f.read().split("\n")
     i = 0
     outfile = open('tweets.json','w')
