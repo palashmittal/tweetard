@@ -1,6 +1,10 @@
 __author__ = 'arkanath'
 
 def parse_trends(filename):
-    f = open('./sports/ausopen.txt', 'r')
-    all = f.read().split("\n")
-    i = 0
+    f = open(filename, 'r')
+    lines = f.read().split("\n")
+    for l in lines:
+        print l
+        break
+
+parse_trends("")
