@@ -1,7 +1,6 @@
 __author__ = 'arkanath'
 
 import json
-from pprint import pprint
 import operator
 
 def get_data(filename):
@@ -25,7 +24,7 @@ def get_top_n_hashtags(data, n):
                 count[hashtag]=1
     count = sorted(count.items(), key=operator.itemgetter(1))
     count = [l for l in reversed(count)]
-    print count[0:n]
+    return count[0:n]
 
 def get_top_users(data, hashtag, n):
     user_count = {}
@@ -38,10 +37,4 @@ def get_top_users(data, hashtag, n):
                 user_count[user_id]=1
     user_count = sorted(user_count.items(), key=operator.itemgetter(1))
     user_count = [l for l in reversed(user_count)]
-    for l in user_count[0:n]:
-        print l[0],'\t',l[1]
-    # print user_count[0:n]
-
-data = get_data("/Users/arkanath/Temp/Social Computing Project/tweetard/Data/tweets.json")
-# get_top_n_hashtags(data,5)
-get_top_users(data, "ESPNAO", 20)
+    return user_count[0:n]

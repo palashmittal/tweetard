@@ -4765,7 +4765,6 @@
 2014-03-24 23:24:59	['#MH370', 'GWAR', '#ZeroGravity2', 'Freddy Garcia', '#BoldandBeautiful', '#mcm', '#MotivationMonday', 'Indian Ocean', 'Disney', 'NFL']
 2014-03-24 23:40:00	['#MH370', 'GWAR', '#ZeroGravity2', 'Freddy Garcia', '#BoldandBeautiful', '#mcm', '#wearethepeople', 'Indian Ocean', 'Drake', 'Spring Break']
 2014-03-24 23:55:01	['#MH370', '#ZeroGravity2', 'Gwar', '#ourjustin', '#mybeliebers', 'Days of Future Past', '#mcm', 'Walmart', 'Miami', 'Cleveland']
-2014-03-25	[]
 2014-03-25 00:10:03	['#AskNeal', '#SabotageIGN', 'GWAR', '#ZeroGravity2', '#ourjustin', '#mcm', 'Lulu', 'Marquette', 'Cali', 'Netflix']
 2014-03-25 00:25:04	['#MH370', '#AskNeal', '#SabotageIGN', 'Quinton Ross', 'Gwar', '#ZeroGravity2', 'Freddy Garcia', '#mcm', 'Indian Ocean', 'Eminem']
 2014-03-25 00:40:06	['#MH370', 'Apple', '#askmikey', '#8YearsofHannahMontana', 'Quinton Ross', '#AskNeal', 'GWAR', '#AmexSweeps', 'Teen Wolf', 'New York']
