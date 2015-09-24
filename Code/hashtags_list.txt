@@ -1,0 +1,9 @@
+follow = [follow,openfollow,tfb,followtrick,tfbjp,teamfollowback,follow2befollowed,followback,sougofollow,anotherfollowtrain,tcfollowtrain,tityfollowtrain,hitfollowsteam,followme]
+
+weekly = [ff,tbt,f4f,wcw]
+
+adult = [porn,sex,xxx,sexy,hot,pussy,ass,milf,boobs,adult,anal,tits]
+
+tech = [iphone,iphonegames,androidgames,ipad,ipadgames,gameinsight,android,itunes,nsfw,youtube]
+
+general = [video,music,fashion,job,news,travel,movie,photography,business,love]
